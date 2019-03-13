@@ -15,6 +15,7 @@
 .gifs {
     margin: auto 5px;
     float: left;
+    cursor: pointer;
 }
 
 * {

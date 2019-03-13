@@ -86,8 +86,8 @@ $(".container-fluid").on("click", ".gifImg", function () {
 });
 
 $(".btn-sm").on("click", function (event) {
-    event.preventDefault();
 
+    event.preventDefault();
     var addReaction = $(".reaction-search").val().trim().toLowerCase();
 
     if (reactionTracker.indexOf(addReaction) === -1) {
