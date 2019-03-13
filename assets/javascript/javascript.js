@@ -43,7 +43,7 @@ $("header").on("click", ".react-btn", function () {
             $("style").remove();
         }, 4100);
     };
-    
+
     $.ajax({
         url: queryUrl,
         method: "GET"
@@ -55,15 +55,16 @@ $("header").on("click", ".react-btn", function () {
         for (var i = 0; i < result.length; i++) {
 
             var gifDiv = $("<div class='gifs'>");
-            var rated = result[i].rating;
             var stillGifUrl = result[i].images.fixed_height_still.url;
             var animateGifUrl = result[i].images.fixed_height.url;
-            var p = $("<p>").text("Rated: " + rated);
+            var gifIndex = result[i].title.indexOf("GIF")
+            var ratingP = $("<p>").text("Rated: " + result[i].rating);
+            var titleP =  $("<p>").text("Title: " + result[i].title.substring(0, gifIndex - 1));
             var gif = $("<img class='gifImg' src='" + stillGifUrl + "'>");
             gif.attr("data-state", "still");
             gif.attr("data-animate", animateGifUrl);
             gif.attr("data-still", stillGifUrl);
-            $(gifDiv).append(p, gif);
+            $(gifDiv).append(titleP, gif, ratingP);
             $("#gifs-holder").prepend(gifDiv);
         };
     });

@@ -17,11 +17,6 @@
     float: left;
 }
 
-p {
-    text-align: center;
-    margin: 10px 0 3px;
-}
-
 * {
     box-sizing: border-box;
 }
