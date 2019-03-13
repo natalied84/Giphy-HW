@@ -1,0 +1,34 @@
+
+.row    {
+    width: 100%
+}
+
+.clearfix::after  {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+  
+
+
+.btn {
+    margin: 10px 5px;
+}
+
+
+.gifs   {
+    margin: auto 5px;
+    float: left;
+
+}
+
+p{
+    text-align: center;
+    margin: 10px 0 3px;
+}
+
+* {
+    box-sizing: border-box;
+}
