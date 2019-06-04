@@ -1,0 +1,19 @@
+{
+  "name": "giphy-hw",
+  "version": "1.0.0",
+  "description": "This homework's intent was to help build skills in using AJAX and APIs as well as to continue building up my ability to use JS and JQuery in general. The aim was to make a page that can call gifs of various categories using on screen buttons as well as giving the ability to add new buttons. I chose to make all of the prerendered buttons be for reaction gifs however the user can technically search for anything they want, for example, bananas. The AJAX call pulls 10 gifs at a time in a paused state, the user has the ability to unpause gifs simply by clicking on them. Subsequent pressings of the same buttons pulls 10 new gifs instead of the same 10 as before.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalied84/Giphy-HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natalied84/Giphy-HW/issues"
+  },
+  "homepage": "https://github.com/natalied84/Giphy-HW#readme"
+}

@@ -41,7 +41,7 @@ Must have an internet connection.
 -Adding the ability to choose ratings for gifs, G, PG, PG-13, or R if you're so inclined
 
 
-
+####Assignment Instructions Below
 # GifTastic
 
 ### Overview
